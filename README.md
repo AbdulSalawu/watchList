@@ -9,9 +9,5 @@ All of this is stored in the DB.
 
 I wanted to add an extra feature to the project so I ended up implementing a search functionality that allows the user to search through evverything in the DB while onlyt dispklaying the items that match.
 
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
-
-
+I have some images of the project in this directory.
 I would love to talk about this project in more detail if you have any questions.
