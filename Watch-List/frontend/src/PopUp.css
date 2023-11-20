@@ -1,0 +1,88 @@
+/* extra css file for popUp */
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+form.add-movie-popup {
+    position: relative;
+    height: 50vh;
+    width: 70vh;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.popup-inner{
+    position: absolute;
+    padding: 0px;
+    width: 100%;
+    max-width: 1640px;
+    background-color: white
+    
+}
+
+.popup-inner.close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+form.add-movie-popup img{
+    width: 100%;
+    height: 50vh;
+}
+
+form.add-movie-popup input{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 2em;
+    font-family: inherit;
+    resize: none;
+    text-align: center;
+}
+form.add-movie-popup textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+
+}
+
+form.add-movie-popup label {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    text-align: left;
+    font-weight: bold;
+  
+  }
+/* .popup-inner .content{
+    padding-left: 0px;
+} */
+
+.hide{
+    display: none;
+  }
